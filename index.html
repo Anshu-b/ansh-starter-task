@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link href="styles.css" rel="stylesheet"> 
+        <script src="index.js"> </script>
+    </head>
+
+    <body class="background">
+        <div id="clicker" class="box">
+            <h1> Clicker </h1>
+            <p> Click the button to increase the counter </p>
+            <div id="count" class="counter"> 0 </div>
+            <button class="button" id="increment" onclick="incrementTracker()"> Increment </button>
+        </div>
+        <div id="list" class="box"> 
+            <h1> List </h1>
+            <p> Enter some text and press Add to add items to the list </p>
+            <input class = "input-box text" autofocus autocomplete="off" id="input">
+            <button class="button" id="add" onclick="listAppending()"> Add </button>
+            <ul id="list" class="list-item"> 
+            </ul>
+        </div>
+
+    </body>
+</html>

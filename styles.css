@@ -1,0 +1,53 @@
+.background
+{
+    background-color: #C1D4DD;
+}
+
+.box
+{
+    background-color: #959BA0;
+    border: 1px solid black; 
+    border-radius: 20px;
+    width: 40%;
+    text-align: center;
+    margin: 5vh auto;
+    padding: 2%;
+}
+
+.list-item
+{
+    text-align: center;
+}
+
+.counter
+{
+    font-size: 30px;
+}
+
+.input-box
+{
+    border-radius: 15px;
+    width: 250px;
+    height: 30px;
+}
+
+p
+{
+    font-size: 20px;
+}
+
+.text
+{
+    font-size: 20px;
+}
+
+.button
+{
+    font-size: 20px;
+    background-color: #ADCBD0;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2%;
+    margin: 1vh auto;
+}
